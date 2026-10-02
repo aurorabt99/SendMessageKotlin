@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ViewMessageActivity">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:text="@string/tvAppName"/>
+
+    <ImageView
+        android:id="@+id/imageMessage"
+        android:layout_width="@dimen/ivMessageImage_width"
+        android:layout_height="@dimen/ivMessageImage_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="@dimen/ivMessageImage_marginBottom"
+        app:srcCompat="@drawable/imagen_enviar"
+        android:contentDescription="@string/image_message"/>
+
+    <TextView
+        android:id="@+id/tvSecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tvSecondTitle_marginBottom"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_mono"
+        android:textSize="@dimen/tvSecondTitle_textSize"
+        android:textColor="@color/teal_700"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/tvSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+</LinearLayout>
