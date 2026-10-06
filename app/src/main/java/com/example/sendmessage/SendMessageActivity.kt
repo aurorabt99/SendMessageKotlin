@@ -94,7 +94,7 @@ class SendMessageActivity : AppCompatActivity() {
         val receiver = Person("987654321", "Lourdes", "Rodriguez")
 
         val message = Message(1, etSendMessage.text.toString(), sender, receiver)
-        bundle.putSerializable("KEY_MESSAGE", message)
+        bundle.putParcelable("KEY_MESSAGE", message)
         intent.putExtras(bundle)
         startActivity(intent)
     }

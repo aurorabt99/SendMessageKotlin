@@ -142,52 +142,37 @@ Para filtrar esta traza en Android Studio:
 ### Captura 1: Pantalla inicial de la aplicación
 *(Vista de `SendMessageActivity` al iniciar la app con el campo de texto y el botón de envío)*
 
-```text
-### Captura 1: Pantalla inicial de la aplicación
-
 ![Pantalla inicial](screenshots/app_inicio.png)
-```
+
 
 ---
 
 ### Captura 2: Mensaje escrito
 *(Vista de `SendMessageActivity` con el texto redactado por el usuario en el EditText)*
 
-```text
-### Captura 2: Mensaje escrito
-
 ![Mensaje escrito](screenshots/mensaje_escrito.png)
-```
+
 
 ---
 
 ### Captura 3: Mensaje recibido
 *(Vista de `ViewMessageActivity` mostrando el mensaje enviado en el TextView)*
 
-```text
-### Captura 3: Mensaje recibido
-
 ![Mensaje recibido](screenshots/mensaje_recibido.png)
-```
+
 
 ---
 
 ### Captura 4: Logcat
 *(Panel Logcat de Android Studio filtrado por `tag:SendMessage` mostrando el log de depuración)*
 
-```text
-### Captura 4: Logcat
-
 ![Logcat](screenshots/logcat_mensaje.png)
-```
+
 
 ---
 
 ### Captura 5: Device Explorer
 *(Vista del panel Device Explorer de Android Studio mostrando la ruta interna del paquete `/data/data/com.example.sendmessage`)*
 
-```text
-### Captura 5: Device Explorer
-
 ![Device Explorer](screenshots/data_data.png)
-```
+

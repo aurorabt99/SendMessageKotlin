@@ -10,6 +10,8 @@ import com.example.sendmessage.model.Message
 /**
  * Actividad encargada de recibir y mostrar el mensaje enviado desde [SendMessageActivity].
  *
+ * @author Aurora Becerra Tejada
+ * @version 1.0
  */
 class ViewMessageActivity : AppCompatActivity() {
 
@@ -41,7 +43,7 @@ class ViewMessageActivity : AppCompatActivity() {
 
         //Pasar datos con serializable sobre los objetos
         //Recibo el objeto Message que viene dentro del bundle
-        val message = bundle?.getSerializable("KEY_MESSAGE") as? Message
+        val message = bundle?.getParcelable("KEY_MESSAGE") as? Message
         //API33: val message = bundle?.getSerializable("KEY_MESSAGE", Message::class.java)
 
         //Muestro el contenido del mensaje

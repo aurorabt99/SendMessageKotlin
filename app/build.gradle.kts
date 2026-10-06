@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.dokka)
     alias(libs.plugins.kotlin.dokka.javadoc)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
