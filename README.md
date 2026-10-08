@@ -21,7 +21,7 @@ Aplicación Android nativa desarrollada en **Kotlin** como parte del módulo de 
 
 ## Descripción del Proyecto
 
-**SendMessage** es una aplicación móvil nativa cuyo objetivo es demostrar los conceptos fundamentales de la comunicación inter-actividades (*Inter-Activity Communication*) en el entorno de desarrollo Android.
+**SendMessage** es una aplicación móvil nativa de **Android development** cuyo objetivo es demostrar los conceptos fundamentales de la comunicación inter-actividades (*Inter-Activity Communication*) en el entorno de desarrollo Android. Implementa **Explicit Intents** y **Bundle** para el envío de datos entre actividades, utilizando **Kotlin** como lenguaje de programación principal.
 
 El flujo de trabajo de la aplicación es el siguiente:
 
@@ -43,7 +43,7 @@ El flujo de trabajo de la aplicación es el siguiente:
 
 ---
 
-## Architecture & Tech Stack
+## Arquitectura y Stack Tecnológico
 
 | Categoría | Tecnología |
 |-----------|------------|
@@ -57,7 +57,7 @@ El flujo de trabajo de la aplicación es el siguiente:
 
 ---
 
-## Getting Started
+## Primeros Pasos
 
 ### Prerrequisitos
 
@@ -206,9 +206,6 @@ Para filtrar esta traza en Android Studio:
 
 ## Evidencias de Funcionamiento
 
-> [!NOTE]
-> *Inserta a continuación las capturas de pantalla solicitadas para la entrega de la práctica.*
-
 ### Captura 1: Pantalla inicial de la aplicación
 
 *(Vista de `SendMessageActivity` al iniciar la app con el campo de texto y el botón de envío)*
@@ -246,6 +243,12 @@ Para filtrar esta traza en Android Studio:
 *(Vista del panel Device Explorer de Android Studio mostrando la ruta interna del paquete `/data/data/com.example.sendmessage`)*
 
 ![Device Explorer](screenshots/data_data.png)
+
+---
+
+## Contacto
+
+- **GitHub**: [https://github.com/aurorabt99](https://github.com/aurorabt99)
 
 ---
 

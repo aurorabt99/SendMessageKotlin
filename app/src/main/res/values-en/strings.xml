@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etSendMessage">Write here your message...</string>
+    <string name="btSendMessage">Send message</string>
+    <string name="textview">The Office</string>
+    <string name="image_message">Message Image</string>
+    <string name="tvAppName">The Office</string>
+</resources>
