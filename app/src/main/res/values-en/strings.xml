@@ -6,4 +6,5 @@
     <string name="textview">The Office</string>
     <string name="image_message">Message Image</string>
     <string name="tvAppName">The Office</string>
+    <string name="sender_full_name">"From: %1$s %2$s"</string>
 </resources>

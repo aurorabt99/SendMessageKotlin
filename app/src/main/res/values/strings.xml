@@ -47,4 +47,5 @@
     <string name="textview">The Office</string>
     <string name="image_message">Imagen de mensaje</string>
     <string name="tvAppName">The Office</string>
+    <string name="sender_full_name">"De: %1$s %2$s"</string>
 </resources>

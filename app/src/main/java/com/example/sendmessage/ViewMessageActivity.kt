@@ -49,7 +49,11 @@ class ViewMessageActivity : AppCompatActivity() {
         //Muestro el contenido del mensaje
         tvSecondTitle.text = message?.content
         //Muestra quién ha enviado el mensaje
-        tvSender.text = "De: ${message?.sender?.name} ${message?.sender?.surname}"
+        tvSender.text = getString(
+            R.string.sender_full_name,
+            message?.sender?.name,
+            message?.sender?.surname
+        )
 
         Log.d(TAG, "LogViewMessageActivity -> onCreate()")
     }
